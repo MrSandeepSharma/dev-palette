@@ -1,0 +1,12 @@
+.header {
+    padding: var(--padding);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-accent-100);
+}
+
+.header .btn-primary {
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,138 @@
+/* Google fonts */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+  }
+  
+  /* Root variables */
+  :root {
+    --clr-accent-100: #151421;
+    --clr-accent-600: #F5F5F5;
+    --clr-accent-700: #FEF9F5;
+    --clr-primary-300: #E8CECB;
+    --clr-primary-400: #FCACA1;
+  
+    --ff-base: Poppins-Regular;
+    --ff-base-500: Poppins-Medium;
+    --ff-base-700: Poppins-Bold;
+  
+    --fs-400: 16px;
+    --fs-500: 20px;
+    --fs-600: 23px;
+    --fs-700: 45px;
+  
+    --padding: 1rem 1.5rem;
+    --gap: 1rem;
+  
+    --max-width: 600px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--clr-accent-700);
+    color: var(--clr-accent-100);
+    font-size: var(--fs-400);
+    font-family: var(--ff-base);
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-size: var(--fs-700);
+  }
+  
+  /* utility classes */
+  .skip-main {
+    --padding: .5rem 1rem;
+  
+    position: absolute;
+    left: -50%;
+    z-index: 999;
+    padding: var(--padding);
+    background-color: var(--clr-accent-100);
+    color: var(--clr-accent-700);
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  .skip-main:focus {
+    left: 1rem;
+    top: 1rem;
+    opacity: 1;
+  }
+  
+  .sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+    -webkit-clip-path: inset(50%) !important;
+        clip-path: inset(50%) !important;  /* 2 */
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important; /* 3 */
+  }
+  
+  .outline:focus {
+    outline: 2px dotted var(--clr-accent-100);
+    outline-offset: 4px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+  }
+  
+  .container {
+    max-width: var(--max-width);
+    margin: auto;
+  }
+  
+  /* Layout */
+  section {
+    flex-direction: column;
+    padding: var(--padding);
+  }
+  
+  /* Tablet Version */
+  @media (min-width: 600px) {
+    /* root variables */
+    :root {
+      --fs-400: 18px;
+      --fs-500: 22px;
+      --fs-600: 25px;
+      --fs-700: 75px;
+  
+      --padding: 1.5rem 2rem;
+      --gap: 1.25rem;
+  
+      --max-width: 850px;
+    }
+  }
+  
+  /* Desktop Version */
+  @media (min-width: 850px) {
+    /* root variables */
+    :root {
+      --padding: 1.5rem 4rem;
+      --gap: 1.5rem;
+  
+      --max-width: 1400px;
+    }
+  }
