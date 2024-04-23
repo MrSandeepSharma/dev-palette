@@ -49,10 +49,6 @@
     overflow-x: hidden;
   }
   
-  h1 {
-    font-size: var(--fs-700);
-  }
-  
   /* utility classes */
   .skip-main {
     --padding: .5rem 1rem;

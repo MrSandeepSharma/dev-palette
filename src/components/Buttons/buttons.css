@@ -20,6 +20,7 @@
 .btn-secondary {
     background-color: var(--clr-accent-600);
     color: var(--clr-accent-100);
+    border: none;
 }
 
 .btn-secondary:hover {
