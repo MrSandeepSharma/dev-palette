@@ -14,7 +14,7 @@ function Header() {
         <Link to="/" className="header__logo outline">
               <Logo />
         </Link>
-        <PrimaryBtn text="Add a Resource" icon={<FaArrowRightLong />} />
+        <PrimaryBtn target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSeDmUBWnEJgmPpBH-y7F0zCeYaxgxNG5bgl2FgJFkfDe33_Lw/viewform?usp=sf_link" text="Add a Resource" icon={<FaArrowRightLong />} />
     </header>
   )
 }
