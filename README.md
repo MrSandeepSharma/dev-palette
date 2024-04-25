@@ -1,8 +1,7 @@
-# React + Vite
+![Scoot (1)](https://github.com/MrSandeepSharma/dev-palette/assets/142038020/8b050f43-80b2-48e5-a98b-60915d9b0f4c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to contribute
 
-Currently, two official plugins are available:
+You can contribute to dev-palette project by adding new resources [add a resource](https://docs.google.com/forms/d/e/1FAIpQLSeDmUBWnEJgmPpBH-y7F0zCeYaxgxNG5bgl2FgJFkfDe33_Lw/viewform)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Thanks for checking this project
